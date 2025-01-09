@@ -1,0 +1,34 @@
+[submodule "thirdparty/lietorch"]
+	path = thirdparty/lietorch
+	branch = master
+	url = https://github.com/princeton-vl/lietorch.git
+[submodule "thirdparty/eigen"]
+	path = thirdparty/eigen
+	branch = master
+	url = https://gitlab.com/libeigen/eigen.git
+[submodule "thirdparty/simple-knn"]
+	path = thirdparty/simple-knn
+	branch = main
+	url = https://github.com/camenduru/simple-knn.git
+[submodule "thirdparty/diff-gaussian-rasterization-w-pose"]
+	path = thirdparty/diff-gaussian-rasterization-w-pose
+	branch = main
+	url = https://github.com/rmurai0610/diff-gaussian-rasterization-w-pose.git
+[submodule "thirdparty/Depth-Anything"]
+	path = thirdparty/Depth-Anything
+	branch = main
+	url = https://github.com/ChenHoy/Depth-Anything.git
+[submodule "thirdparty/Zoedepth"]
+	path = thirdparty/ZoeDepth
+	branch = master
+	url = https://github.com/ChenHoy/ZoeDepth.git
+[submodule "thirdparty/Metric3D"]
+	path = thirdparty/Metric3D
+	branch = main
+	url = https://github.com/ChenHoy/Metric3D.git
+[submodule "thirdparty/diff-gaussian-rasterization"]
+	path = thirdparty/diff-gaussian-rasterization
+	url = https://github.com/hjr37/diff-gaussian-rasterization.git
+[submodule "thirdparty/diff-gaussian-rasterization-mcmc"]
+	path = thirdparty/diff-gaussian-rasterization-mcmc
+	url = https://github.com/ChenHoy/diff-gaussian-rasterization-mcmc.git

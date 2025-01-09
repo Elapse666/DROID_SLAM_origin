@@ -1,0 +1,61 @@
+name: droidsplat
+channels:
+  - rusty1s
+  - pytorch
+  - pytorch3d
+  - nvidia
+  - open3d-admin
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch-scatter
+  - torchaudio # - torchvision
+  - pytorch=2.1
+  - cudatoolkit
+  - tensorboard
+  - pytorch3d==0.7.7 # This version is very important!
+  - scipy
+  - opencv==4.9
+  - tqdm
+  - suitesparse
+  - pyyaml
+  - ffmpeg
+  - kiwisolver
+  - ninja
+  - numpy==1.26.4
+  - pillow
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - pip:
+    - hydra-core
+    - omegaconf
+    - torchmetrics
+    - easydict
+    - ipdb
+    - PyOpenGL-accelerate  # Installing this manually works, using conda does not
+    - glfw
+    - imgviz
+      # - glm
+    - PyGLM # This substitutes glm
+    - dask # TODO do we really need this?
+    - faiss-cpu
+    - gdown
+    - einops
+    - plyfile
+    - tk
+    - kornia
+    - PyQt5
+    - matplotlib
+    - evo
+    - imageio
+    - networkx
+    - pandas
+    - trimesh # TODO do we really need this?
+    - termcolor
+    - webencodings
+    - pyrender
+    - timm==0.6.7
+    - pyliblzfse
+    - open3d # This package is actually trouble when installing under conda instead of pip
